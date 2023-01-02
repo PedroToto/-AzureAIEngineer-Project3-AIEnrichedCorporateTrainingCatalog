@@ -1,0 +1,390 @@
+Index: azuretable-index
+
+Query 1: https://mitchcognitivesearch.search.windows.net/indexes/azuretable-index/docs?api-version=2021-04-30-Preview&search=AI%2CAzure&%24select=keyphrases%2Csource%2Clevel
+
+{
+  "@odata.context": "https://mitchcognitivesearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 4.266632,
+      "level": "beginner",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 4.266632,
+      "level": "beginner",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 3.903469,
+      "level": "advanced",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 3.903469,
+      "level": "advanced",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.5723631,
+      "level": "beginner",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.5723631,
+      "level": "beginner",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.166801,
+      "level": "beginner",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.166801,
+      "level": "intermediate",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.166801,
+      "level": "beginner",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.166801,
+      "level": "intermediate",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.9455857,
+      "level": "intermediate",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.9455857,
+      "level": "intermediate",
+      "source": "MS Learn",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.6342852,
+      "level": "intermediate",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.6342852,
+      "level": "intermediate",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+
+Query 2: https://mitchcognitivesearch.search.windows.net/indexes/azureblob-index/docs?api-version=2021-04-30-Preview&search=AI%2CAzure&%24select=keyphrases%2Cpublisher%2Cdoi
+
+
+{
+  "@odata.context": "https://mitchcognitivesearch.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.9396675,
+      "keyphrases": [],
+      "publisher": "Springer",
+      "doi": "10.1007/s40685-020-00134-w"
+    },
+    {
+      "@search.score": 2.6120403,
+      "keyphrases": [],
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-019-0210-7"
+    },
+    {
+      "@search.score": 2.2315629,
+      "keyphrases": [],
+      "publisher": "Springer",
+      "doi": "10.1186/s40493-015-0019-z"
+    },
+    {
+      "@search.score": 1.524675,
+      "keyphrases": [],
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-020-00545-z"
+    },
+    {
+      "@search.score": 1.3259062,
+      "keyphrases": [],
+      "publisher": "Springer",
+      "doi": "10.1186/s13673-018-0135-8"
+    }
+  ]
+}
+
+
+Query 3: https://mitchcognitivesearch.search.windows.net/indexes/azuretable-index/docs?api-version=2021-04-30-Preview&search=%22Eileen%20Diaz%22
+
+
+{
+  "@odata.context": "https://mitchcognitivesearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1.823022,
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "company-moodle6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "company-moodle85ee725b-4ae0-4719-8785-ddf99e19faf1",
+      "description": "For administrators, learn our best practices for securing all databases",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.3,
+      "rating_count": 45,
+      "role": "admin",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "company-moodle9df844fd-eefe-4880-8341-936732174bb5",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "NA",
+      "rating_average": 4.2,
+      "rating_count": 95,
+      "role": "architect",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "company-moodled3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "Y29tcGFueS1tb29kbGUyNzhkMjk5ZS1lZjBlLTQ3ZmItOGU5OC01YTMxYTA3MzUxOWM1",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "Y29tcGFueS1tb29kbGU2YjVkM2Y1NS1lYjAyLTQ5OWQtOTc3NS0yZTBlMjU2NTllMDc1",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "Y29tcGFueS1tb29kbGU4NWVlNzI1Yi00YWUwLTQ3MTktODc4NS1kZGY5OWUxOWZhZjE1",
+      "description": "For administrators, learn our best practices for securing all databases",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.3,
+      "rating_count": 45,
+      "role": "admin",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "Y29tcGFueS1tb29kbGU5ZGY4NDRmZC1lZWZlLTQ4ODAtODM0MS05MzY3MzIxNzRiYjU1",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "NA",
+      "rating_average": 4.2,
+      "rating_count": 95,
+      "role": "architect",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.823022,
+      "Key": "Y29tcGFueS1tb29kbGVkM2YwYzk1NS1hYzZlLTRjZWQtYjkxYi1mZmNlZjNlOGNlZGU1",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+
+Query 4: https://mitchcognitivesearch.search.windows.net/indexes/azureblob-index/docs?api-version=2021-04-30-Preview&search=%22Location-based%20mobile%22
+
+{
+  "@odata.context": "https://mitchcognitivesearch.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 3.48439,
+      "content": "\nMobile marketing recommendation method \nbased on user location feedback\nChunyong Yin1 , Shilei Ding1 and Jin Wang2*\n\nIntroduction\nIn recent years, the e-commerce industry has developed rapidly with the popularization \nof the Internet. At this time, famous e-commerce platforms such as Alibaba and Ama-\nzon were born. E-commerce moved physical store products to a virtual network plat-\nform. On the one hand, it is convenient for users to buy various products without leaving \nthe home. On the other hand, it is also convenient for sellers to sell their own goods \nand reduce costs. However, the various products have made it more difficult for users \nto select products. E-commerce platform can generate a large amount of user location \nfeedback data which contains a wealth of user preference information [1]. It is significant \nto predict the location of the next consumer’s consumption from these behavioral data. \nAt present, most of the recommended methods focus on the user-product binary matrix \nand directly model their binary relationships [2]. The users’ location information and \nshopping location information are considered as the third factor. In this case, you can \nonly use the limited check-in data. The users’ location feedback behavior and the timeli-\nness of behavior are often overlooked.\n\nThe mobile recommendation system takes advantage of the mobile network environ-\nment in terms of information recommendation and overcomes the disadvantages. Filter-\ning irrelevant information by predicting potential mobile user preferences and providing \n\nAbstract \n\nLocation-based mobile marketing recommendation has become one of the hot spots \nin e-commerce. The current mobile marketing recommendation system only treats \nlocation information as a recommended attribute, which weakens the role of users and \nshopping location information in the recommendation. This paper focuses on location \nfeedback data of user and proposes a location-based mobile marketing recommenda-\ntion model by convolutional neural network (LBCNN). First, the users’ location-based \nbehaviors are divided into different time windows. For each window, the extractor \nachieves users’ timing preference characteristics from different dimensions. Next, we \nuse the convolutional model in the convolutional neural network model to train a \nclassifier. The experimental results show that the model proposed in this paper is better \nthan the traditional recommendation models in the terms of accuracy rate and recall \nrate, both of which increase nearly 10%.\n\nKeywords: Location feedback, Mobile marketing, Convolutional neural network, \nSequential behavior\n\nOpen Access\n\n© The Author(s) 2019. This article is distributed under the terms of the Creative Commons Attribution 4.0 International License \n(http://creat iveco mmons .org/licen ses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, \nprovided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and \nindicate if changes were made.\n\nRESEARCH\n\nYin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14  \nhttps://doi.org/10.1186/s13673-019-0177-6\n\n*Correspondence:   \njinwang@csust.edu.cn \n2 School of Computer & \nCommunication Engineering, \nChangsha University \nof Science & Technology, \nChangsha 410004, China\nFull list of author information \nis available at the end of the \narticle\n\nhttp://orcid.org/0000-0001-5764-2432\nhttp://creativecommons.org/licenses/by/4.0/\nhttp://crossmark.crossref.org/dialog/?doi=10.1186/s13673-019-0177-6&domain=pdf\n\n\nPage 2 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nmobile users with results that meet users’ individual needs gradually become an effec-\ntive means to alleviate “mobile information overload” [3]. Mobile users have different \npreferences in different geographical locations. For this problem, how to use location \ninformation to obtain mobile users’ preferences and provide accurate personalized \nrecommendations has become a hot topic in mobile recommendation research [4]. \nAlthough there are many researches based on location recommendation, they mainly \nfocus on service resources without positional relevance. To solve the shortcomings of \nresearch on location relevance of service resources is few [5], Zhu et  al. [6] proposed \nthe method which is based on the user’s context information to analyze the user’s pref-\nerences and retrograde. Their approach is to derive user preferences by proposing two \ndifferent assumptions and then recommending user models based on preference analy-\nsis. Yin et al. [7] proposed LA-LDA. The method is a location-aware based generation \nprobability model, which uses scoring based on location to model user information and \nrecommend to users. However, these methods only treat location information as an \nattribute without considering the spatial information of users or items and weaken loca-\ntion information’s role in the recommendation. There are some studies determine user \npreferences by the distance between the mobile user and the merchant [8], but only set \nthe area based on the proximity of the distance and ignore the spatial activities of the \nmobile user [9]. However, these methods were limited to the analysis of user informa-\ntion and product information, and did not carefully consider the importance of user and \nbusiness location information. Therefore, the user preference model based on location \nrecommendation they created has some gap.\n\nConsidering the core of mobile marketing recommendation is location movement, \nLian et al. [10] proposed an implied feature-based cognitive feature collaborative filter-\ning (ICCF) framework, which avoids the impact of negative samples by combining con-\nventional methods and semantic content. In terms of algorithms, the author proposed \nan improved algorithm that can expand according to data size and feature size. To deter-\nmine the relevance of the project to user needs, Lee et al. [11] developed context infor-\nmation analysis and collaborative filtering methods for multimedia recommendations in \nmobile environments. Nevertheless, these methods only used small-scale training data \nand could not achieve accurate prediction of long-term interest for users. In this paper, \ndeep learning and time stamps are used to compensate for these shortcomings.\n\nWith great achievements in visual and speech tasks, the Deep Learning (DL) model \nhas become a novel field of study [12]. Because of the interventional optimization of \ndeep learning algorithms, artificial intelligence has made great breakthroughs in many \naspects. It is well known that models obtained through deep learning and machine learn-\ning models have very similar effects, which learns advanced abstract features from the \noriginal input features by simulating the network structure of the human nervous sys-\ntem. Experiments show that the deep model can express the characteristics of the data \nbetter than the shallow model [13]. Weight sharing by convolution makes CNN similar \nto biological neural networks, which reduces the difficulty of network structure and the \nnumber of weights. The structure of CNN is roughly divided into two layers. It is well \nknown that the first layer is a convolutional layer. Each neuron’s input is connected to the \nprevious layer through a convolution kernel and the local features are extracted. Next \nlayer is a pooling layer. In this layer, the neurons in the network are connected through \n\n\n\nPage 3 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\na convolution kernel to extract the overall features. Convolutional neural networks have \ngreat advantages in processing two-dimensional features [14], such as images.\n\nBased on our detailed comparative analysis, this paper proposes a location-based \nmobile marketing recommendation model by convolutional neural network (LBCNN). \nFirstly, we use user-product information as a training sample, and treat this problem as \na two-class problem. The category of the problem is divided into the purchase behav-\nior and the purchase behavior of the product at the next moment. In order to capture \nthe user’s timing preference characteristics, we divide the behavior of the merchandise \naccording to a certain length of time window and dig deeper into the behavior charac-\nteristics of each time window. Secondly, we consider the users’ timing preferences and \noverall preferences for the product. Then, the features of time window are used to train \nconvolutional neural network models. Finally, we input the sample features of the test \nset into the model and generate the Top-K sample as the location-based purchase fore-\ncast results [15].\n\nRemain of the paper is divided into four sections. Related work is shown in “Related \nwork” section. Necessary definitions and specific implementation of the location-based \nmobile marketing recommendation model by convolutional neural network (LBCNN) \nare shown in “Location-based mobile marketing recommendation model by CNN” sec-\ntion. In “Experimental analysis” section, experimental analysis is introduced. “Conclu-\nsion” section summarizes the strengths and weaknesses of the paper and proposes plans \nfor future progress.\n\nRelated work\nIn the current chapter, we will review existing methods for recommending systems \nthat can be broadly divided into three parts: content filtering, collaborative filtering \nand hybrid methods. We also discuss the establishment of feature models based on \ntime series to clearly represent the differences between our research and other existing \nmethods.\n\nTraditional recommendation method\n\nIn the general products recommendation system, the similarity between users is calcu-\nlated by the user’s interest feature vector. Then, the system recommends some products \nwith similarity greater than a certain threshold or the similar Top-N products to the tar-\nget user. This is a traditional recommendation algorithm based on content and the rec-\nommendation is based on comparing users.\n\na. Content‑based recommendation method\n\nContent-based information filtering has proven to be an effective application for \nlocating text documents related to topics. In particular, we need to focus on the \napplication of content-based information filtering in the recommendation system. \nContent-based methods allow for accurate comparisons between different texts \nor projects, so the recommended results are similar to the historical content of the \nuser’s consumption. The content-based recommendation algorithm involves the fol-\nlowing aspects. User description file describes the user’s preferences, which can be \nfilled by the user and dynamically updated based on the user’s feedback information \n\n\n\nPage 4 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\n(purchasing, reading, clicking, etc.) during the operation of the system. The project \nprofile describes the content characteristics of each project, which constitutes the \nfeature vector of the project. In addition, the similarity calculation is the similarity \nbetween the user’s description file and the item feature vector.\n\nThe similarity calculation of the content-based recommendation algorithm usually \nadopts the cosine similarity algorithm. The algorithm needs to calculate the similarity \nbetween the feature vector of user u and the feature vector of item i. The calculation \nformula is as shown in Formula (1).\n\nwhere ⇀u denotes the user feature vector, \n⇀\n\ni  denotes the project feature vector, \n⇀\n\n|u| is the \nmodulus of the user feature vector and \n\n⇀\n\n|i| is the model of the project feature vector.\nRepresentative content-based recommendation systems mainly include Lops, \n\nGemmis, and Semeraro [16]. Compared to other methods, content-based recom-\nmendations have no cold-start issues and recommendations are easy to understand. \nHowever, the content filtering based recommendation method has various draw-\nbacks, such as strongly relying on the availability of content and ignoring the context \ninformation of the recommended party. The content-based recommendation method \nalso has certain requirements for the format of the project. Besides, it is difficult to \ndistinguish the merits of the project. The same type of project may have the same type \nof features, which are difficult to reflect the quality of the project.\n\nb. Collaborative filtering method\n\nThe recommendation based on collaborative filtering solves the recommendation \nproblem by using the information of similar users in the same partition to analyze and \nrecommend new content that has not been scored or seen by the target user.\n\nRegarding the traditional collaborative filtering method based on memory, we \nunderstand that this method is based on the different relationships between users and \nprojects. According to expert research, the traditional collaborative filtering method \nbased on memory should be divided into the following three steps.\n\nStep 1: collection of user behavior data, this step represents the user’s past behav-\nior with a m * n matrix R. The matrix  Umn represents the feedback that the user m \nhas on the recommended object n. Rating is a range of values and different values \nrepresent how much the user likes the recommended object.\n\nStep 2: establishment of a user neighbor: establish mutual user relationships by \nanalyzing all user historical behavior data.\n\n(1)sim(u, i) =\n\n⇀\nu ·\n\n⇀\n\ni\n\n⇀\n\n|u|\n⇀\n\n|i|\n\nU =\n\n\n\n\n\n\n\nU11 U12 . . . U1n\n\nU21 U22 . . . U2n\n\n. . . . . . . . . . . .\n\nUm1 Um2 . . . Umn\n\n\n\n\n\n\n.\n\n\n\nPage 5 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nStep 3: generate recommendation results: find the most likely N objects from the rec-\nommended items selected by similar user sets.\n\nTherefore, recommendations are made by mining common features in similar users’ pref-\nerence information [17]. The normal methods in this classification include k-nearest neigh-\nbor (k-NN), matrix decomposition, and semi-supervised learning. According to the survey, \nAmazon uses an item-by-item collaborative filtering method to recommend personalized \nonline stores for each customer.\n\nCompared to other method, collaborative filtering has the ability to filter out informa-\ntion that can be automatically recognized by the machine and effectively use feedback from \nother similar users. However, collaborative filtering requires more ratings for the project, \nso it is affected by the issue of rating sparsity. In addition, this method does not provide a \nstandard recommendation for new users and new projects, which is called a cold start issue.\n\nc. Hybrid recommendation method\n\nThe hybrid recommendation method combines the above techniques in different ways to \nimprove the recommended performance and optimize the shortcomings of the conven-\ntional method. Projects that cannot be recommended for collaborative filtering are gener-\nally addressed by combining them with content-based filtering [18].\n\nThe core of this method is to independently calculate the recommendation results of the \ntwo types of recommendation algorithms, and then mix the results. There are two specific \nhybrid methods. One method is to mix the predicted scores of the two algorithms linearly. \nAnother hybrid method is to set up an evaluation standard, compare the recommended \nresults of the two algorithms, and take the recommendation results of the higher evaluation \nalgorithms. In general, the hybrid recommendation achieves a certain degree of compensa-\ntion between different recommendation algorithms. However, the hybrid recommendation \nalgorithm still needs improvement in complexity.\n\nd. Recommendation based on association rules\n\nThe association rule algorithm is a traditional data mining method that has been widely \nused in business for many years. The core idea is to analyze the rules of user historical \nbehavior data to recommend more similar behavioral items [19]. Rules can be either user-\ndefined or dynamically generated by using rule algorithms. The effect of the algorithm \ndepends mainly on the quantity and quality of the rules so the focus of the algorithm is on \nhow to develop high quality rules.\n\nDefine N as the total number of transactions, R is the total project and U and V are two \ndisjoint sets of items (U∩V ≠ ∅, U∈R, V∈R). The association rule is essentially an IF–Then \nstatement, here is expressed by U → V. The strength of the association rule U → V can be \nmeasured by two criteria: support and confidence. S is the ratio containing U and V data \nwhich both represent the number of transactions, which is shown in Formula (2).\n\nC is the ratio of U, V data to the only U data which represents the number of transac-\ntions, as shown in Formula (3)\n\n(2)S(U → V ) =\nN (U ∪ V )\n\nN\n.\n\n\n\nPage 6 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nThe recommendation process of the algorithm is shown in below.\nFirstly, according to the items of interest to the user, the user’s interest in other \n\nunknown items is predicted by rules. Secondly, compare the support of the rules. Finally, \nthe recommended items of TOP-N are obtained to the user.\n\nThe recommendation system based on association rules includes three parts: the key-\nword, the presentation and the user interface. The keyword layer is a set of keyword \nattributes and dependencies between keywords. The description layer connects the \nkeyword layer and the user layer and the main function is to describe the user and the \nresource. The user interface layer is the layer that interacts directly with the user. How-\never, the system becomes more and more difficult to manage as the rules increasing. In \naddition, there is a strong dependence on the quality of the rules and a cold start prob-\nlem is existed.\n\nMost of the recommendation systems use collaborative filtering algorithm to recom-\nmend for users. However, the traditional algorithm can only analyze ready-made data \nsimply, and most systems simply preprocess the data. In our method, we preprocess the \ndataset by extending the time information of the data to a time label. The next section is \nan explanation of the specific implementation.\n\nConstruction of time series behavior’s preference features\n\nThe timing recommendation model is based primarily on the Markov chain. This model \nmakes full use of timing behavior data to predict the next purchase behavior based on \nthe user’s last behavior. The advantage of this model is that it can generate good recom-\nmendations by timing behavior.\n\nAs shown in Fig. 1, the prediction problem of product purchase can be expressed as \npredicts the user’s purchase behavior at time T by a user behavior record set D before \ntime T [20]. Different actions occur at different times. For example, user1 visit location \na and b when user1 purchasing b and c at T − 3. We need to predict T-time consumer \nbehavior based on different timing behavior characteristics.\n\nAccording to relevant professional research, we divide the data sets of user behav-\nior into three groups in a pre-processing manner. By the feature statistics method, the \n\n(3)C(U → V ) =\nN (U ∪ V )\n\nN\n.\n\nFig. 1 The time series of user position feedback\n\n\n\nPage 7 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nfeatures are divided into two types, as shown in Table 1. “True” indicates that the feature \ngroup has corresponding features. Conversely, “False” means no such feature. Next we \nexplain these features.\n\na. Counting feature\n\nFor each feature statistics window, we use the behavioral counting feature and the de-\nduplication counting feature. The behavior count is a cumulative measure of the num-\nber of behaviors that occurred in and before the current window. For the location visit \nbehavior, it represents the number of visits to the product location by the user, the total \nnumber of visits by the user and the total number of visits to the merchandise. The de-\nduplication count feature is similar to the behavioral count, but only the number of non-\nrepetitive behavioral data is counted.\n\nb. Mean feature\n\nIn order to describe the activity of the user and the popularity of the product better, \nthis article derives a series of mean-type features based on the counting features. Take \nthe location visit behavior as an example, the user characteristics group includes the \nuser’s average number of visiting to the product. The average number of visiting to \nthe product by user i is calculated as shown in Formula (4).\n\nc. Ratio feature\n\nThe ratio of user-product behavior to the total behavior of the user and the product \nis also an aspect affecting the user’s degree of preference for the product. In the time \nwindow t, the method to calculate the ratio of the user’s visit to the products’ total \nvisit is shown in Formula (5).\n\nOur work presents a mobile marketing recommendation model is trained by adding \nthe time axis to the user position features. Contrary to current research, it is highly \nusable and low difficulty of achievement for real-world work applications. Consider-\ning the speed of calculation, we study the method of directly embedding time series \ninformation into the collaborative filtering calculation process to improve the recom-\nmendation quality. Specific information will be covered in the following sections.\n\n(4)avgui(t, i, visit) =\naction_count(t,U ,Ui, visit)\n\nuser_unique_item(t,U ,Ui, visit)\n.\n\n(5)rate_ui_in_u(t, i, j, visit) =\naction_count(t,UI ,Ui, Ij, visit)\n\naction_count(t,U ,Ui, visit)\n.\n\nTable 1 Characteristic system diagram (True/False)\n\nFeature group Counting feature Mean feature Ratio feature\n\nUser-product True False True\n\nUser feature True True False\n\nProduct feature True True False\n\n\n\nPage 8 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nLocation‑based mobile marketing recommendation model by CNN\nCreating the model is one of the most important aspects, which is an evaluation crite-\nrion to make sure correctness of the next step. This section mainly describes the rel-\nevant definitions of LBCNN that are shown in “Relevant definitions of the LBCNN” \nsection, and specific implementation of the model is shown in “Specific implementa-\ntion of the model” section.\n\nRelevant definitions of the LBCNN\n\nIn order to get better feature expression, we consider the user’s timing sensitivity of the \nproduct preferences and the user’s overall preferences comprehensively. This paper uses a \nconvolutional neural network as the basis to build location-based mobile marketing recom-\nmendation model. In the next step, we give the relevant definition.\n\na. Definition 1 (Model framework): based on the above analysis and user’s timing behav-\nior preference feature. We use the convolutional neural network model shown in Fig. 2. The \nmodel is divided into four layers that are input layer, multi-window convolution layer, pool-\ning layer and output layer. The input layer is a well-constructed input feature which trans-\nforms the input features into a two-dimensional plane by time series. Each time window is \nexpressed as an eigenvector. The multi-window convolutional layer convolves the input fea-\nture plane through different lengths of time windows to obtain different feature maps. The \npooling layer reduces the dimension of the feature map to obtain a pooled feature vector. \nThe output layer and the pooling layer are fully connected network structures.\n\nb. Definition 2 (Convolution layer): assume that there are N time windows of the feature \nand each time window has K user preference feature for the commodity. Then input sam-\nple × can be expressed as a matrix of T × K. The feature map in the convolutional layer is \ncalculated by the input layer and the convolution kernel. The window length of the convolu-\ntion kernel is h. xi,i+j represents the eigenvector added by time window i and time window \ni + j. The convolution kernel w can be expressed as a vector of h × K. Feature map f = [f1, f2, \n…, fT−h+1]. The i-th feature fi is calculated according to Formula (6):\n\n(6)fi = σ(w · xi,i+h−1 + b)\n\nFig. 2 The framework of the LBCNN\n\n\n\nPage 9 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nwhere b is an offset term and a real number. σ(x) is a nonlinear activation function. This \npaper uses ReLu and Tanh as an activation function. Relu is shown in Formula (7):\n\nc. Definition 3 (Max-pooling): the pooling layer is to scale the feature map while reduc-\ning the complexity of the network. The maximum features of the convolution kernel can \nbe obtained according to the maximum pooling operation. The feature map obtained \nat the kth product of the convolutional kernel is fk = [fk,1, fk,2, …, fk,T−h +1]. The pooling \noperation can be expressed as Formula (8):\n\nd. Definition 4 (Probability distribution): there are M convolution kernels and the output \nlayer has C categories [19]. The weight parameter θ of the output layer is a C × M matrix. \nThe pooled feature f̂  of x is an M-dimensional vector. The probability that x belongs to \nthe i-th category can be expressed as Formula (9):\n\nwhere  bk represents the k-th offset of the fully connected layer. The loss function of the \nmodel can be obtained by the likelihood probability value, as shown in Formula (10):\n\nwhere T is the training data set,  yi is the real category of the i-th sample, xi is the charac-\nteristic of the i-th sample and θ is the model’s parameters. We learn model parameters \nby minimizing the loss function. The training method adopts the improved gradient \ndescent method proposed by Zeiler. In addition, we have adopted Dropout process-\ning on the convolutional layer to prevent over-fitting of the trained model [21]. The \nDropout method randomizes the neurons in the convolutional layer to 0 with a certain \nprobability.\n\ne. Definition 5 (Latent factor): the value of the latent factor vector is true [22]. Whether \nan item belongs to a class is determined entirely by the user’s behavior. We assume that \ntwo items are liked by many users at the same time, then these two items have a high \nprobability of belonging to the same class. The weight of an item in a class can also be \ncalculated by itself. The implicit semantic model calculates the user’s (u) interest in the \nitem (i) are shown in Formula (11):\n\n(7)\nReLu = max(0, x).\n\nTanh(x) =\nex − e−x\n\nex + e−x\n.\n\n(8)Pool_feature(j) = down(fi).\n\n(9)p(i|x, θ) =\ne(θi·\n\n⌢\nf +bi)\n\n∑C\nk−1 e\n\n(θk ·\n⌢\nf +bk )\n\n(10)J (θ) = −\n\nk\n∑\n\ni=1\n\nlog(p(yi|x, θ))\n\n(11)R(u, i) = rui = pTu qi =\n\nF\n∑\n\nf=1\n\npu,kqi,k\n\n\n\nPage 10 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nwhere p is the relationship between the user interest and the kth implicit class. q is the \nrelationship between the kth implicit class and the item i. F is the number of hidden \nclasses, and r is the user’s interest in the item.\n\nSpecific implementation of the model\n\nWe can draw from Fig. 3 that the proposed model is divided into two processes. The first \nprocess is the training process and includes two parts. The top module shows how to gener-\nate CNN inputs and outputs from historical data. The other module in the training process \nshows that the traditional CNN parameters are trained by provided data. The second pro-\ncess finished a new location-based marketing resources recommendation. The recommen-\ndation process can work through the CNN parameters provided by the training process.\n\nTo achieve the features of users and location-based mobile marketing resources, the \nlatent factor model (LFM) is used. In traditional LFM, L2-norm regularization is often used \nto optimize training results. However, using L2-norm regularization often leads to excessive \nsmoothing problems. In our model, LFM results are used to represent the characteristics of \nthe training data. In this kind of thinking, we can learn from the training method of regres-\nsion coefficient in regression analysis, and construct a loss function. Therefore, it is more \nreasonable to use sparseness before the specification results. Based on these analyses, we \npropose an improved matrix decomposition method and try to normalize the solution by \n\nFig. 3 Location-based mobile marketing recommendation model by convolutional neural network\n\n\n\nPage 11 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nusing the premise of verifying the sparseness of the matrix. The model is presented as For-\nmula (12):\n\nThe next question is how to calculate these two parameters p and q. For the calculation \nof this linear model, this paper uses the gradient descent method. In the Formula (12), \n puk is a user bias item that represents the average of a user’s rating.  qik is an item offset \nitem that represents the average of an item being scored. The offset term is an intrinsic \nproperty that indicates whether the item is popular with the public or a user is harsh \non the item. For positive samples, we specify  ru,i = 1 based on experience and negative \nsample  ru,i = 0, which is shown in Formula (11). The latter λ is a regularization term to \nprevent overfitting.\n\na. Description of the training section\n\nIn Fig. 3, If you want to train CNN, the first thing you need to solve is its input and out-\nput problems. For input, a language model is usually used.\n\nIn terms of output, we propose an improvement in model training by LFM, which is \nconstrained by the regularization of the L1-norm [23]. LFM training data is a historical \nscore between the user and the location-based marketing resources. The rating score can \nbe explicit because it is based on a user tag or an implied tag and it is predicted from the \nuser’s behavior. In this model, in order to ensure that the trained model is representative, \nthe training data we input is to select the existing authoritative standard training set.\n\nb. Description of the recommended part\n\nOnce the LBCNN model structure is established and the model parameters are trained \nusing the training data set, the recommended real-time performance can be achieved. \nThe real-time performance is based on the update of network model parameters in the \nbackground, and it uses some past behavior data and information of the recommended \npeople and products.\n\nUser information and product information can be obtained in advance and digitized. \nIn the offline training model phase, digitized user information, product information, and \nbehavior information are utilized [24]. The same model is trained for the same type of \nusers, and the parameters of the model are periodically updated within a certain period \nof time. In the real-time recommendation stage, real-time recommendation can be real-\nized only by integrating the collected behavior data with the previous data and inputting \nit into the model.\n\nExperimental analysis\nIn order to verify the advantages of convolutional neural network in capturing user’s \ntiming preferences for product and mining users’ temporal behavior characteristics, \nwe compare several commonly used classification models under the same conditions of \ntraining features. They are Linear Logistic Regression Classification Model (LR), Support \n\n(12)J (U ,V ) =\n∑\n\nu,i∈K\n\n(\n\nru,i −\n\nk\n∑\n\nk=1\n\npu,kqi,k\n\n)2\n\n+ ��puk�\n2 + ��qik�\n\n2.\n\n\n\nPage 12 of 17Yin et al. Hum. Cent. Comput. Inf. Sci.            (2019) 9:14 \n\nVector Machine (SVM), Random Forest Model (RF) and Gradient Boosting Regression \nTree Model (GBDT) [25]. We also compare the products that have been visited for the \nlast 8 h. Experimental tool is sklearn kit. The hyper parameter settings for each model \nduring the experiment are:\n\na. LR: select L2 regular and the regularization coefficient is 0.1.\nb. SVM: choose radial basis kernel function (RBF) and gamma of kernel function is \n\n0.005.\nc. RF: the number of trees is 200, the entropy is selected as the feature segmentation \n\nstandard and the random feature ratio is 0.5.\nd. GBDT: the number of trees is 100, the learning rate is 0.1 and the maximum depth of \n\nthe tree is 3.\n\nDescription of the data set\n\nThe experiment in our paper uses the dataset disclosed according to the Alibaba Group’s \nmobile recommendation algorithm contest held in 2015. This data set contains 1 month \nof user behavior data and product information. The user’s behavior data includes 10 mil-\nlion users’ various behaviors on 2,876,947 items. Behavior types include clicks, shopping \ncarts and purchases. In addition, each behavior record identifies behavior time that is \naccurate to the hour. The product information includes product category information, \nand identifies whether the product is an online to offline type. In a real business sce-\nnario, we often need to build a personalized recommendation model for a subset of all \nproducts. In the",
+      "metadata_storage_content_type": "application/pdf",
+      "metadata_storage_size": 1373874,
+      "metadata_storage_last_modified": "2022-12-28T09:34:49Z",
+      "metadata_storage_name": "s13673-019-0177-6.pdf",
+      "metadata_storage_path": "aHR0cHM6Ly9taXRjaHN0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L3BhcGVycy9zMTM2NzMtMDE5LTAxNzctNi5wZGY1",
+      "metadata_storage_file_extension": ".pdf",
+      "metadata_content_type": "application/pdf",
+      "metadata_language": "en",
+      "metadata_author": "Chunyong Yin ",
+      "metadata_title": "Mobile marketing recommendation method based on user location feedback",
+      "metadata_creation_date": "2019-04-05T10:16:31Z",
+      "keyphrases": [],
+      "merged_content": null,
+      "text": [],
+      "layoutText": [],
+      "publicationName": null,
+      "publisher": "Springer",
+      "doi": "10.1186/s13673-019-0177-6",
+      "publicationDate": null
+    }
+  ]
+}
+
+
+Query 5: https://mitchcognitivesearch.search.windows.net/indexes/azureblob-index/docs?api-version=2021-04-30-Preview&search=%22Location-based%20mobile%22&%24select=metadata_author%2Cmetadata_title%2Cpublisher
+
+{
+  "@odata.context": "https://mitchcognitivesearch.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 3.48439,
+      "metadata_author": "Chunyong Yin ",
+      "metadata_title": "Mobile marketing recommendation method based on user location feedback",
+      "publisher": "Springer"
+    }
+  ]
+}
